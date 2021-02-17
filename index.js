@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     let firstPlatform = platforms[0].visual
                     firstPlatform.classList.remove('platform')
                     platforms.shift()
-                    score++
+                    score++ 
                     console.log(platforms)
                     let newPlatform = new Platform(600)
                     platforms.push(newPlatform)
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (doodlerBottomSpace > startPoint + 200) {
                 fall()
             }
-        }, 30)
+        }, 20)
     }
 
     function fall() {
