@@ -1,2 +1,2 @@
 # fruitle-jump
-doodle jump but with fruit
+Doodle Jump clone in JavaScript, HTML and CSS except made with evil fruit
